@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&display=swap')
+/*Formating the navigation bar*/
+
+;
+.logo-specs img{
+   
+     height: 56px;
+     width: 48 px;  
+    /*overflow: hidden;*/
+    
+}
+nav{
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+   
+   
+
+li >a:hover{
+    background-color: #e45826;
+    color: #ffffff;
+}
+.navb-links{
+    list-style-type:none;
+    display:flex;
+   
+}
+.navb-item{
+  padding-right: 15px;
+  padding-left:0 px;
+    color: #e45826;
+   /* height: 3px;*/
+    text-decoration: none;
+    background-color: #ffffff;
+
+   
+}
+.page-container{
+    width: 960px;
+    margin: auto;
+
+}
+
+.intro-image-specs img{
+    height: 450 px; 
+    width: 252px; 
+    float: right;
+}
+
+.honey-oh-specs img{
+    height: 100 px; 
+    width: 200px;
+}
+
+.honey-oh-button button{
+    background-color: #e45826;
+    height: 50px;
+    width: 80%;
+    border:none;
+    color: #ffffff ;
+    
+}
+
+.page-container-intro{
+    width: 960px;
+    margin:auto;
+    background-color: #4a3933;
+    background-size: cover;
+}
+.honey{
+    height: 200 px;
+     width: 100px; 
+    float: right;
+}
+.intro-padding{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+    .page-container-honey-jar{
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+        border-bottom: 10mm;
+        padding-bottom: 250px;
+        width: 25%;
+        height: 300px;
+        background-color: #f8f5f1;
+        text-align: center;
+       margin: 0px 10px 10px 10px  ;
+    
+    }
+
+    .page-container-honey-jar:hover{
+        background-color: #e45826;
+        border-width: 10 px;
+        border-color: #e45826;
+    }
+    .honey-oh-page-container{
+
+        width: 960px;
+        margin:auto;
+        justify-content: space-between;
+    }
+    .honey-oh-page-container a:hover{
+        background-color: #e45826;
+        color: #ffffff;   
+      
+       /* padding-right: 40px;
+        padding-bottom: 40;*/
+}
+.page-container-weoffer{
+    width: 960px;
+    margin:auto;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-bottom: 100px;
+    /*display: flex;*/
+}
+.top-tier-benefits{
+    border-top: 50px;
+
+}
+.page-container-honey-benefits{
+    width: 960px;
+    margin:auto;
+    background-color:  #e6d5b8;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    
+    
+}
+body{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+button{
+    background-color: #e45826;
+    height: 50px;
+    border: none;
+}
+    .text-ad{
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        flex-wrap: wrap;
+      }
+      .jar-text{
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        flex-wrap: wrap;
+      }
+      .benefits-of-honey{
+        width: 25%;
+        height: 300px;
+    
+}
+.nav2{
+   /* width:%;
+    width: 960px;
+    margin:auto;*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+    .testimonial-speech{
+        display: flex;
+        justify-content: space-between;
+      }
+      .image-for-testimonials img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    
+      }
+      
+      .image-for-testimonials img{
+        border-radius: 50%;
+      }
+    
+      .hear-mi-out{
+        width: 30%;
+        height: 300px;
+        border: none;
+        text-align: center;
+        padding: 24px 12px 24px 12px;
+        background-color: #f8f5f1;
+      }
